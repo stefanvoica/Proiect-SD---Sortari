@@ -1,6 +1,6 @@
 /*
 In acest program se genereaza teste in care elementele de pe indicii pari sunt sortate crescator,
-iar cei de pe indicii impari sunt sortate descrestor.
+iar cei de pe indicii impari sunt sortate descrestor(daca consideram indexarea de la 1).
 */
 #include <iostream>
 #include <fstream>
@@ -9,15 +9,19 @@ iar cei de pe indicii impari sunt sortate descrestor.
 #include <vector>
 #include <algorithm>
 using namespace std;
+const int dim_max = 1000000;
+
+int v[dim_max + 1];
+
 
 void generateTest(const string& filename, int num_numbers, int max_value) {
     ofstream file(filename);
     srand(time(0));
     file << num_numbers << '\n';
-    vector <int> v(num_numbers);
+
     for (int i = 0; i < num_numbers; i++)
-        v.push_back(rand() % (max_value + 1));
-    sort(v.begin(), v.end());
+        v[i] = rand() % (max_value + 1);
+    sort(v, v + num_numbers);
     for (int i = 0, j = num_numbers - 1; i < j; i++, j--)
         file << v[i] << ' ' << v[j];
     if (num_numbers % 2 == 1)
