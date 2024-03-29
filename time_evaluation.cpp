@@ -9,7 +9,6 @@
 #include "quick_sort.hpp"
 #include "heap_sort.hpp"
 #include "quick_sort1.hpp"
-#include "tim_sort.hpp"
 
 using namespace std;
 #define n_max 100000000
@@ -31,11 +30,8 @@ void copiere (int w[],int v[],int n)
 
 int main()
 {
-    const int nr_teste = 8;
-    const string test_names[] = {"test1.txt", "test2.txt", "test3.txt", "test4.txt",
-                                 "test5.txt", "test6.txt", "test7.txt", "test8.txt"};
     ofstream fout("rezultate.out");
-    for (int i = 1 ;i <= 36; i++)
+    for (int i = 1 ;i <= 1; i++)
     {
         string filename = "test"+to_string(i)+".txt";
         ifstream fin (filename);
@@ -135,16 +131,6 @@ int main()
         else fout << elapsed_seconds.count() << " secunde" << '\n';
 
         copiere(w,v,n);
-        fout<< "Tim Sort: ";
-        start = chrono::high_resolution_clock::now();
-        timSort(v,n);
-        end = chrono::high_resolution_clock::now();
-        elapsed_seconds = end - start;
-
-        if (!verif_sortare(n, v))
-            fout << "Vectorul nu a fost sortat corect" << '\n';
-        else fout << elapsed_seconds.count() << " secunde" << '\n';
-        copiere(w,v,n);
         fout<< "STL Sort: ";
         start = chrono::high_resolution_clock::now();
         sort(v + 1, v + n + 1);
@@ -159,3 +145,4 @@ int main()
     }
     return 0;
 }
+
