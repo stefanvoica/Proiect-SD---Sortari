@@ -1,0 +1,140 @@
+Test test1.txt
+n = 1000 max = 1000
+Radix Sort baza 10: 0 secunde
+Merge Sort: 0 secunde
+Shell Sort: 0 secunde
+Heap Sort: 0 secunde
+STL Sort: 0 secunde
+
+Test test2.txt
+n = 1000 max = 10000
+Radix Sort baza 10: 0 secunde
+Merge Sort: 0 secunde
+Shell Sort: 0 secunde
+Heap Sort: 0 secunde
+STL Sort: 0 secunde
+
+Test test3.txt
+n = 1000 max = 100000
+Radix Sort baza 10: 0 secunde
+Merge Sort: 0 secunde
+Shell Sort: 0 secunde
+Heap Sort: 0 secunde
+STL Sort: 0 secunde
+
+Test test4.txt
+n = 1000 max = 1000000
+Radix Sort baza 10: 0 secunde
+Merge Sort: 0 secunde
+Shell Sort: 0 secunde
+Heap Sort: 0 secunde
+STL Sort: 0 secunde
+
+Test test5.txt
+n = 1000 max = 10000000
+Radix Sort baza 10: 0.0010041 secunde
+Merge Sort: 0 secunde
+Shell Sort: 0 secunde
+Heap Sort: 0 secunde
+STL Sort: 0 secunde
+
+Test test6.txt
+n = 1000 max = 100000000
+Radix Sort baza 10: 0 secunde
+Merge Sort: 0 secunde
+Shell Sort: 0 secunde
+Heap Sort: 0 secunde
+STL Sort: 0 secunde
+
+Test test7.txt
+n = 10000 max = 1000
+Radix Sort baza 10: 0.0010248 secunde
+Merge Sort: 0.0010184 secunde
+Shell Sort: 0 secunde
+Heap Sort: 0.0010048 secunde
+STL Sort: 0 secunde
+
+Test test8.txt
+n = 10000 max = 10000
+Radix Sort baza 10: 0.0010008 secunde
+Merge Sort: 0.0010077 secunde
+Shell Sort: 0 secunde
+Heap Sort: 0.001011 secunde
+STL Sort: 0.0010046 secunde
+
+Test test9.txt
+n = 10000 max = 100000
+Radix Sort baza 10: 0.002007 secunde
+Merge Sort: 0 secunde
+Shell Sort: 0.0010036 secunde
+Heap Sort: 0.001005 secunde
+STL Sort: 0 secunde
+
+Test test10.txt
+n = 10000 max = 1000000
+Radix Sort baza 10: 0.0020369 secunde
+Merge Sort: 0 secunde
+Shell Sort: 0 secunde
+Heap Sort: 0.0021731 secunde
+STL Sort: 0 secunde
+
+Test test11.txt
+n = 10000 max = 10000000
+Radix Sort baza 10: 0.0020082 secunde
+Merge Sort: 0 secunde
+Shell Sort: 0.0010038 secunde
+Heap Sort: 0.0010125 secunde
+STL Sort: 0 secunde
+
+Test test12.txt
+n = 10000 max = 100000000
+Radix Sort baza 10: 0.0020245 secunde
+Merge Sort: 0.0010034 secunde
+Shell Sort: 0 secunde
+Heap Sort: 0.0010036 secunde
+STL Sort: 0.0010041 secunde
+
+Test test13.txt
+n = 100000 max = 1000
+Radix Sort baza 10: 0.0110411 secunde
+Merge Sort: 0.0080031 secunde
+Shell Sort: 0.0039999 secunde
+Heap Sort: 0.0125078 secunde
+STL Sort: 0.0050007 secunde
+
+Test test14.txt
+n = 100000 max = 10000
+Radix Sort baza 10: 0.0130031 secunde
+Merge Sort: 0.008002 secunde
+Shell Sort: 0.0040009 secunde
+Heap Sort: 0.0150032 secunde
+STL Sort: 0.0040014 secunde
+
+Test test15.txt
+n = 100000 max = 100000
+Radix Sort baza 10: 0.0156015 secunde
+Merge Sort: 0.0070488 secunde
+Shell Sort: 0.0032307 secunde
+Heap Sort: 0.0143106 secunde
+STL Sort: 0.0051358 secunde
+
+Test test16.txt
+n = 100000 max = 1000000
+Radix Sort baza 10: 0.0166805 secunde
+Merge Sort: 0.0069945 secunde
+Shell Sort: 0.0030007 secunde
+Heap Sort: 0.0131248 secunde
+STL Sort: 0.0050007 secunde
+
+Test test17.txt
+n = 100000 max = 10000000
+Radix Sort baza 10: 0.0196677 secunde
+Merge Sort: 0.0080036 secunde
+Shell Sort: 0.0049498 secunde
+Heap Sort: 0.0135397 secunde
+STL Sort: 0.0050032 secunde
+
+Test test18.txt
+n = 100000 max = 100000000
+Radix Sort baza 10: 0.0226354 secunde
+Merge Sort: 0.0077316 secunde
