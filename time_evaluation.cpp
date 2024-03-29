@@ -31,7 +31,7 @@ void copiere (int w[],int v[],int n)
 int main()
 {
     ofstream fout("rezultate.out");
-    for (int i = 1 ;i <= 1; i++)
+    for (int i = 1 ;i < 10; i++)
     {
         string filename = "test"+to_string(i)+".txt";
         ifstream fin (filename);
