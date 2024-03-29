@@ -15,7 +15,7 @@ Fiecare algoritm de sortare este implementat în fișierul header, unde sunt pre
 
 ## Evaluare de performanță
 Pentru a compila și evalua performanța algoritmilor de sortare, urmați următorii pași:
-1. Compilați fișierul `generate_data.cpp` pentru a genera date de test.
+1. Compilați fișierul `generator_teste_random.cpp` pentru a genera date de test.
 2. Compilați fișierul `time_evaluation.cpp` împreună cu fișierele header asociate pentru a măsura performanța algoritmilor de sortare pe diferite dimensiuni ale datelor și tipuri de date (aleatorii, sortate, invers-sortate).
 
 ## Rezultate și analiză
