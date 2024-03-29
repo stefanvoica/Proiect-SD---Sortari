@@ -8,7 +8,7 @@ using namespace std;
 void generateTest(const string& filename, int num_numbers, int max_value) {
     ofstream file(filename);
     srand(time(0));
-    file << num_numbers << '\n';
+    file << num_numbers << ' ' << max_value << '\n';
     for (int i = 0; i < num_numbers; ++i)
         file << rand() % (max_value + 1) << ' ';
     file.close();
