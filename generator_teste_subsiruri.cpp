@@ -30,9 +30,9 @@ void generateTest(const string& filename, int num_numbers, int max_value) {
 }
 
 int main() {
-    const int num_tests = 8;
-    int num_numbers[] = {1000, 10000, 10000, 100000, 100000, 100000, 10000, 1000000};
-    int max_values[] = {1000000, 1000, 1000000, 100, 1000000, 100000000, 1000000, 1000000000};
+    const int num_tests = 10;
+    int num_numbers[] = {1000, 10000, 10000, 100000, 100000, 100000, 10000, 1000000, 10000000, 100000000};
+    int max_values[] = {1000000, 1000, 1000000, 100, 1000000, 100000000, 1000000, 1000000000, 10000000, 1000000000};
 
     for (int i = 0; i < num_tests; ++i)
     {
