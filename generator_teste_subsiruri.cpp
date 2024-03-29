@@ -1,6 +1,6 @@
 /*
 In acest program se genereaza teste in care elementele de pe indicii pari sunt sortate crescator,
-iar cei de pe indicii impari sunt sortate descrestor(daca consideram indexarea de la 1).
+iar cei de pe indicii impari sunt sortate descrestor.
 */
 #include <iostream>
 #include <fstream>
